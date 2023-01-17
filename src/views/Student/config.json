@@ -1,0 +1,82 @@
+[
+
+  {
+    "title": "学号",
+    "dataIndex": "s_id",
+    "key": "s_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "s_id"
+    }
+  },
+  {
+    "title": "专业编号",
+    "dataIndex": "m_id",
+    "key": "m_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "m_id"
+    }
+  },
+  {
+    "title": "姓名",
+    "dataIndex": "s_name",
+    "key": "s_name",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "s_name"
+    }
+  },
+  {
+    "title": "性别",
+    "dataIndex": "sex",
+    "key": "sex",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "sex"
+    }
+  },
+  {
+    "title": "电话号码",
+    "dataIndex": "phone",
+    "key": "phone",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "phone"
+    }
+  },
+  {
+    "title": "上一次登录时间",
+    "dataIndex": "login_time",
+    "key": "login_time",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "login_time"
+    }
+  },
+  {
+    "title": "上一次登录 IP",
+    "dataIndex": "login_ip",
+    "key": "login_ip",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "login_ip"
+    }
+  },
+  {
+    "title": "操作",
+    "dataIndex": "operation",
+    "width": 150,
+    "key": "operation",
+    "fixed": "right",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "operation"
+    }
+  }
+
+]

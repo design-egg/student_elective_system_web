@@ -1,0 +1,9 @@
+export const LOGIN = `/login`
+export const CURRENT = `/user/current`
+export const REST_PWD = `/user/restpwd`
+export const DEPT = `/dept`
+export const COURSE = `/course`
+export const MAJOR = `/major`
+export const STUDENT = `/student`
+export const TEACHER = `/teacher`
+export const STUDENT_COURSE = `/student-course`

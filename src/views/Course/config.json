@@ -1,0 +1,82 @@
+[
+
+  {
+    "title": "课程编号",
+    "dataIndex": "c_id",
+    "key": "c_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "c_id"
+    }
+  },
+  {
+    "title": "教师工号",
+    "dataIndex": "t_id",
+    "key": "t_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "t_id"
+    }
+  },
+  {
+    "title": "课程名称",
+    "dataIndex": "c_name",
+    "key": "c_name",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "c_name"
+    }
+  },
+  {
+    "title": "课程简介",
+    "dataIndex": "c_info",
+    "key": "c_info",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "c_info"
+    }
+  },
+  {
+    "title": "课程学分",
+    "dataIndex": "credit",
+    "key": "credit",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "credit"
+    }
+  },
+  {
+    "title": "可供选课人数",
+    "dataIndex": "count",
+    "key": "count",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "count"
+    }
+  },
+  {
+    "title": "当前被选人数",
+    "dataIndex": "current",
+    "key": "current",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "current"
+    }
+  },
+  {
+    "title": "操作",
+    "dataIndex": "operation",
+    "width": 150,
+    "key": "operation",
+    "align": "center",
+    "fixed": "right",
+    "scopedSlots": {
+      "customRender": "operation"
+    }
+  }
+
+]

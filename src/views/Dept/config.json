@@ -1,0 +1,44 @@
+[
+
+  {
+    "title": "院系编号",
+    "dataIndex": "d_id",
+    "key": "d_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "d_id"
+    }
+  },
+  {
+    "title": "院系名字",
+    "dataIndex": "d_name",
+    "key": "d_name",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "d_name"
+    }
+  },
+  {
+    "title": "院系简介",
+    "dataIndex": "d_info",
+    "key": "d_info",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "d_info"
+    }
+  },
+  {
+    "title": "操作",
+    "dataIndex": "operation",
+    "key": "operation",
+    "align": "center",
+    "fixed": "right",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "operation"
+    }
+  }
+
+]

@@ -1,0 +1,55 @@
+[
+
+  {
+    "title": "专业编号",
+    "dataIndex": "m_id",
+    "key": "m_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "m_id"
+    }
+  },
+  {
+    "title": "院系编号",
+    "dataIndex": "d_id",
+    "key": "d_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "d_id"
+    }
+  },
+  {
+    "title": "专业名称",
+    "dataIndex": "m_name",
+    "key": "m_name",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "m_name"
+    }
+  },
+  {
+    "title": "专业简介",
+    "dataIndex": "m_info",
+    "key": "m_info",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "m_info"
+    }
+  },
+  {
+    "title": "操作",
+    "dataIndex": "operation",
+    "width": 150,
+    "key": "operation",
+    "fixed": "right",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "operation"
+    }
+  }
+
+]

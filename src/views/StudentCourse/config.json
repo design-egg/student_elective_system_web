@@ -1,0 +1,64 @@
+[
+
+  {
+    "title": "学号",
+    "dataIndex": "s_id",
+    "key": "s_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "s_id"
+    }
+  },
+  {
+    "title": "课程编号",
+    "dataIndex": "c_id",
+    "key": "c_id",
+    "align": "center",
+    "fixed": "left",
+    "width": 150,
+    "scopedSlots": {
+      "customRender": "c_id"
+    }
+  },
+  {
+    "title": "成绩",
+    "dataIndex": "score",
+    "align": "center",
+    "key": "score",
+    "scopedSlots": {
+      "customRender": "score"
+    }
+  },
+  {
+    "title": "补考成绩",
+    "dataIndex": "second_score",
+    "align": "center",
+    "key": "second_score",
+    "scopedSlots": {
+      "customRender": "second_score"
+    }
+  },
+  {
+    "title": "是否已公布成绩",
+    "dataIndex": "is_publish",
+    "align": "center",
+    "key": "is_publish",
+    "scopedSlots": {
+      "customRender": "is_publish"
+    }
+  },
+  {
+    "title": "操作",
+    "dataIndex": "operation",
+    "width": 150,
+    "key": "operation",
+    "fixed": "right",
+    "align": "center",
+    "scopedSlots": {
+      "customRender": "operation"
+    }
+  }
+
+]

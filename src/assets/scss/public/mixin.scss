@@ -1,0 +1,95 @@
+@for $i from 1 through 30 {
+  .fs#{$i} {
+    font-size: #{$i}px !important;
+  }
+
+  .br#{$i} {
+    border-radius: #{$i}px !important;
+  }
+
+  .l-h#{$i} {
+    line-height: #{$i}px !important;
+  }
+}
+
+@for $i from 1 through 40 {
+  .margin#{$i} {
+    margin:#{$i}px !important;
+  }
+
+  .padding#{$i} {
+    padding:#{$i}px !important;
+  }
+
+  .ml#{$i} {
+    margin-left: #{$i}px !important;
+  }
+
+  .mr#{$i} {
+    margin-right: #{$i}px !important;
+  }
+
+  .mt#{$i} {
+    margin-top: #{$i}px !important;
+  }
+
+  .mb#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+
+  .pl#{$i} {
+    padding-left: #{$i}px !important;
+  }
+
+  .pr#{$i} {
+    padding-right: #{$i}px !important;
+  }
+
+  .pt#{$i} {
+    padding-top: #{$i}px !important;
+  }
+
+  .pb#{$i} {
+    padding-bottom: #{$i}px !important;
+  }
+}
+
+.tc {
+  text-align: center !important;
+}
+
+.tl {
+  text-align: left !important;
+}
+
+.tr {
+  text-align: right !important;
+}
+
+.fl {
+  float: left !important;
+}
+
+.fr {
+  float: riaght !important;
+}
+
+.cl-both {
+  clear: both !important;
+}
+
+.fw-b {
+  font-weight: bold !important;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.fixed {
+  position: fixed !important;
+}
